@@ -1,4 +1,33 @@
 # Condition-Monitoring-of-Rotating-Machinery
+Condition Monitoring of Industrial Rotating Machinery
+
+2022"Mobile Cloud Cup"Computing Power Network Application Innovation Competition(Industry Track)
+
+Industrial Edge Cloud Application-Condition Monitoring of Industrial Rotating Machinery Data Set
+
+
+• Competition Topic:Condition Monitoring of Industrial Rotating Machinery
+
+
+• Background:In the process of modern industrial development,rotating machinery equipment accounts for more than 80%of the total amount of mechanical equipment.It mainly includes gearboxes,generators,blowers,and other common mechanical equipment in the wind power and petrochemical industries.These rotating devices rotate at high speeds and possess significant kinetic energy.Rotor component detachment can pose a huge threat to the safe operation of equipment.Once a mechanical device fails,it not only damages the equipment but also leads to a decline in product quality and production line efficiency.In severe cases,it may even cause major accidents,resulting in incalculable economic losses and even casualties.Supervising and analyzing equipment based on industrial big data,improving the self-inspection and self-diagnosis capabilities of rotating equipment,and building an intelligent fault diagnosis system for intelligent operation and maintenance management can effectively reduce equipment maintenance costs and enhance the safety and reliability of equipment.This,in turn,promotes the high-quality development of intelligent manufacturing.
+
+However,in real production processes,the working conditions are highly variable,the equipment environment is complex,and there is a lack of effective case studies.It is extremely challenging to obtain sufficient data with accurate labeling information.These factors pose significant challenges to the construction of models.Therefore,it is of great significance to build effective transfer learning model strategies by fully considering the complex and variable working conditions,based on the limited labeling information currently available.
+
+
+• Competition Task:
+
+The aim of this competition is to develop an equipment fault analysis algorithm that can analyze and diagnose faults using vibration data collected from vibration sensors on the device side.The goal is to achieve fault diagnosis and analysis across different working conditions and even across different devices,thereby assisting in the arrangement of maintenance strategies in real production processes.
+
+1)Data Set Introduction
+
+A.Training Set:
+
+The training set consists of continuous vibration waveforms from real equipment,covering eight common status types,including normal status,inner race fault,outer race fault,etc.The training folder contains two subfolders:labeled and unlabeled.The labeled folder includes eight types of status clearly labeled with numbers 0 to 7(each subfolder represents a specific status).Each type of fault contains 500 samples(provided in txt format),and each sample includes 4096 data points.Meanwhile,the unlabeled folder contains 2000 continuous vibration waveforms from different working conditions or different devices,with the same sample storage format as above.
+
+Data Link:The file"Rotating_Machinery_Data_version.zip"is shared via a cloud storage link:[Baidu Cloud](https://pan.baidu.com/s/1MWw7hWM9uGpUmOMvMksdcA?pwd=d4zt)
+
+
+
 工业旋转机械设备健康状态检测
 
 
@@ -22,3 +51,6 @@ A.训练集：
 
 
 网址：https://ecloud.10086.cn/api/query/developer/user/home.html?ticket=ST-7179-Jhem0Myd4NmqdlwEK4He-cas01.example.org#/api/query/developer/match/matchDetails.html?id=6488d309ce3542f7a32b02e36054a473
+
+datalink:  通过网盘分享的文件：Rotating_Machinery_Data_version.zip
+链接: https://pan.baidu.com/s/1MWw7hWM9uGpUmOMvMksdcA?pwd=d4zt 提取码: d4zt
